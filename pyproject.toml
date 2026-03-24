@@ -1,0 +1,9 @@
+[project]
+name = "vectornavproto"
+version = "0.1.0"
+description = "VectorNav VN-300 real-time dashboard"
+requires-python = ">=3.12"
+dependencies = [
+    "dearpygui",
+    "pyserial>=3.5",
+]
